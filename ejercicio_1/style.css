@@ -1,21 +1,14 @@
-header {
-    height: 100px;
-    background-color: aquamarine;
-}
+header {}
 
 
 
 .flexbox {
-    height: 600px;
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
-
 }
 
 main {
     width: 80%;
-    background-color: coral;
     position: relative;
 }
 
@@ -28,12 +21,11 @@ main {
 
 .contendor>article {
     width: 100%;
-    background-color: chartreuse;
+    z-index: 2;
 }
 
 aside {
     width: 20%;
-    background-color: chocolate;
 }
 
 .amarillo {
@@ -41,5 +33,6 @@ aside {
     height: 50%;
     position: absolute;
     bottom: 0;
-    background-color: #eecf39
+    background-color: #eecf39;
+    z-index: 1;
 }
