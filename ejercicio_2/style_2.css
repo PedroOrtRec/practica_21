@@ -5,7 +5,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0% 10%;
+    margin: 0% 15%;
     padding-top: 0.5%;
 }
 
@@ -22,8 +22,63 @@ header nav ul li {
 header nav a {
     text-decoration: none;
     color: black;
+    font-size: 0.8em;
 }
 
 .hero {
     background-image: url(images/fondo.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 110, 115);
+    background-blend-mode: multiply;
+    color: white;
+    height: 40vh;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+    text-shadow: 0 0.015em 0.02em black;
+}
+
+.hero h3 {
+    font-size: 1.2em;
+
+    text-shadow: 0 0.015em 0.02em black;
+}
+
+.hero a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 1em;
+    margin-left: 1em;
+    padding: 0.4em;
+}
+
+.left_click {
+    border: 1px solid black;
+    border-radius: 8%;
+    background-color: gray;
+}
+
+.right_click {
+    border: 1px solid cyan;
+    border-radius: 8%;
+}
+
+.fondo {
+    height: 40vh;
+    background-color: rgb(248, 248, 243);
+}
+
+.contenedor {
+    background-color: white;
+    position: absolute;
+    bottom: 20vh;
+    right: 45vh;
+    width: 60vw;
+    height: 40vh;
 }
