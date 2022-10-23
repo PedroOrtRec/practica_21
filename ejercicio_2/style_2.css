@@ -1,3 +1,7 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
  /* HEADER */
  header {
      background-color: rgb(248, 248, 243);
@@ -39,7 +43,7 @@
      background-image: url(images/fondo.jpeg);
      background-size: cover;
      height: 50%;
-     background-position: 0 -15em;
+     background-position: 0 -11em;
      background-attachment: fixed;
      color: white;
      display: flex;
@@ -52,7 +56,9 @@
 
  .hero h1 {
      font-size: 3em;
+     font-weight: bold;
      text-shadow: 0 0.015em 0.02em black;
+     margin-bottom: 0.600em;
  }
 
  .hero h3 {
@@ -89,6 +95,11 @@
      justify-content: center;
      flex-wrap: wrap;
      border-top: 0.250em solid yellow;
+     background-color: white;
+     position: fixed;
+     bottom: 10%;
+     right: 10%;
+     left: 10%;
  }
 
  .flexbox article {
