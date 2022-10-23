@@ -36,6 +36,8 @@ header nav a {
     color: white;
     height: 50vh;
     background-size: cover;
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
     background-position: 0 -15em;
 }
 
@@ -77,10 +79,10 @@ header nav a {
 .contenedor {
     background-color: white;
     position: absolute;
-    bottom: 10vh;
+    bottom: 1vh;
     right: 35vh;
     width: 70vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 .decoracion_amarilla {
@@ -95,4 +97,22 @@ header nav a {
 
 .flexbox div {
     width: 100%;
+}
+
+.flexbox {
+    color: gray;
+    margin: 0.5em;
+    gap: 0.5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.flexbox h4 {
+    margin-bottom: 0.8em;
+}
+
+.flexbox a {
+    text-decoration: none;
+    color: rgb(0, 100, 251);
 }
