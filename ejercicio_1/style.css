@@ -5,7 +5,7 @@ body {
 
 header {
     margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 p,
@@ -34,7 +34,7 @@ h1 {
 }
 
 main {
-    width: 50%;
+    width: 60%;
     position: relative;
 }
 
@@ -86,23 +86,5 @@ figure {
 
 aside article {
     height: 50%;
-    margin-left: 5em;
-    margin-right: 10em;
-    /* padding: 0 10em; */
-    color: rgb(50, 50, 50);
-}
-
-aside h3 {
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-
-aside p {
-    margin-bottom: 1em;
-}
-
-aside a {
-    text-decoration: underline;
-    text-underline-offset: 0.6em;
-    color: rgb(50, 50, 50);
+    padding: 0 5em;
 }
