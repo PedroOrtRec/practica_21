@@ -39,6 +39,7 @@ header nav a {
     /* background-size: 100%; */
     /* background-repeat: no-repeat; */
     background-position: 0 -15em;
+    background-attachment: fixed;
 }
 
 .hero h1 {
@@ -91,15 +92,13 @@ header nav a {
     background-color: yellow;
 }
 
-.flexbox {
-    display: flex;
-}
-
 .flexbox div {
     width: 100%;
 }
 
 .flexbox {
+    width: 100%;
+    display: flex;
     color: gray;
     margin: 0.5em;
     gap: 0.5px;
