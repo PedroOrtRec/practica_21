@@ -34,7 +34,7 @@ h1 {
 }
 
 main {
-    width: 80%;
+    width: 60%;
     position: relative;
 }
 
@@ -53,8 +53,18 @@ main {
     z-index: 2;
 }
 
+.contendor h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0.5em 0.8em;
+}
+
+.contendor p {
+    margin: 0.5em 0.8em;
+}
+
 aside {
-    width: 20%;
+    width: 40%
 }
 
 .amarillo {
@@ -67,9 +77,14 @@ aside {
 }
 
 img {
-    width: 200px;
+    width: 16em;
 }
 
 figure {
     text-align: center;
+}
+
+aside article {
+    height: 50%;
+    padding: 0 5em;
 }
