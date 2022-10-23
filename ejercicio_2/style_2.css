@@ -124,6 +124,7 @@
  article p {
      font-size: 0.7rem;
      font-weight: 500;
+     /* line-height: 1.5em; */
  }
 
  article img {
