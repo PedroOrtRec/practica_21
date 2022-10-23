@@ -1,30 +1,84 @@
-header {
-    background-color: rgb(248, 248, 243);
-}
+ /* HEADER */
+ header {
+     background-color: rgb(248, 248, 243);
+ }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 15%;
-    padding-top: 0.5%;
-}
+ nav {
+     display: flex;
+     justify-content: space-between;
+     margin: 0% 15%;
+     padding-top: 0.5%;
+ }
 
-header nav ul {
-    list-style: none;
-    padding-top: 0.8em;
-}
+ header nav ul {
+     list-style: none;
+     padding-top: 0.8em;
+ }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
+ header nav ul li {
+     display: inline-block;
+     margin-left: 20px;
+ }
 
-header nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 0.8em;
-}
+ header nav a {
+     text-decoration: none;
+     color: black;
+     font-size: 0.8em;
+ }
 
+ /* MAIN */
+ /* HERO */
+
+ .contendor_fondo {
+     height: 90vh;
+ }
+
+ .hero {
+     background-image: url(images/fondo.jpeg);
+     background-size: cover;
+     height: 50%;
+     background-position: 0 -15em;
+     background-attachment: fixed;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(110, 110, 115);
+     background-blend-mode: multiply;
+ }
+
+ .hero h1 {
+     font-size: 3em;
+     text-shadow: 0 0.015em 0.02em black;
+ }
+
+ .hero h3 {
+     font-size: 1.2em;
+
+     text-shadow: 0 0.015em 0.02em black;
+ }
+
+ .hero a {
+     display: inline-block;
+     text-decoration: none;
+     color: white;
+     margin-top: 1em;
+     margin-left: 1em;
+     padding: 0.4em;
+     border-radius: 5%;
+ }
+
+ .left_click {
+     border: 1px solid black;
+     background-color: gray;
+ }
+
+ .right_click {
+     border: 1px solid cyan;
+ }
+
+ /*
 .hero {
     background-image: url(images/fondo.jpeg);
     display: flex;
@@ -35,10 +89,10 @@ header nav a {
     background-blend-mode: multiply;
     color: white;
     height: 50vh;
-    background-size: cover;
-    /* background-size: 100%; */
-    /* background-repeat: no-repeat; */
-    background-position: 0 -15em;
+    background-size: cover; */
+ /* background-size: 100%; */
+ /* background-repeat: no-repeat; */
+ /* background-position: 0 -15em;
     background-attachment: fixed;
 }
 
@@ -114,4 +168,4 @@ header nav a {
 .flexbox a {
     text-decoration: none;
     color: rgb(0, 100, 251);
-}
+} */
