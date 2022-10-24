@@ -5,7 +5,7 @@ body {
 
 header {
     margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 p,
@@ -34,7 +34,11 @@ h1 {
 }
 
 main {
+<<<<<<< HEAD
     width: 60%;
+=======
+    width: 80%;
+>>>>>>> dev_ejercicio_1
     position: relative;
 }
 
@@ -42,6 +46,16 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    /* margin: 50px; */
+    /* justify-content: center; */
+=======
+    margin: 50px;
+    justify-content: center;
+>>>>>>> parent of c3c642d (eliminado ejercicio 1)
+>>>>>>> dev_ejercicio_1
     align-items: center;
 }
 
@@ -50,18 +64,8 @@ main {
     z-index: 2;
 }
 
-.contendor h3 {
-    font-size: 1.8em;
-    font-weight: bold;
-    margin: 0.5em 0.8em;
-}
-
-.contendor p {
-    margin: 0.5em 0.8em;
-}
-
 aside {
-    width: 40%
+    width: 20%;
 }
 
 .amarillo {
@@ -74,11 +78,13 @@ aside {
 }
 
 img {
-    width: 16em;
+    width: 200px;
+<<<<<<< HEAD
 }
 
 figure {
     text-align: center;
+<<<<<<< HEAD
 }
 
 aside article {
@@ -101,4 +107,8 @@ aside a {
     text-decoration: underline;
     text-underline-offset: 0.6em;
     color: rgb(50, 50, 50);
+=======
+=======
+>>>>>>> parent of c3c642d (eliminado ejercicio 1)
+>>>>>>> dev_ejercicio_1
 }
